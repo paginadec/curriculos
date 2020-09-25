@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+}
+
+body {
+    height: 1600px;
+    width: 100%;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.letras {
+    margin-left: 500px;
+    margin-top: 300px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 1px 10px black;
+}
+
+.faixa {
+    height: 3px;
+    width: 350px;
+    margin-left: 489px;
+    background: #32CD32;
+}
+
+.body1 {
+    position: absolute;
+    height: 450px;
+    width: 100%;
+    background-image: url(/img/banner-home.jpg);
+    background-size: 100%;
+}
+
+header img {
+    margin-top: 10px;
+    width: 50px;
+    height: 40px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+.header1 {
+    display: flex;
+}
+
+.options {
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.options ul li {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.options a {
+    text-decoration: none;
+    color: #7fbc07;
+}
+
+.header2 {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+}
+
+.header2 a {
+    text-decoration: none;
+}
+
+.header2 ul li {
+    margin-left: 30px;
+}
+
+.header21 {
+    margin-left: 600px;
+}
+
+.header21 a {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 15px;
+}
+
+.options ul li a:hover {
+    opacity: 0.6;
+}
+
+.prancheta {
+    margin-top: 285px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/Prancheta\ 1.png);
+    background-size: 300px;
+}
+
+.prancheta02 {
+    margin-top: 285px;
+    margin-left: 250px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/Prancheta\ 2.png);
+    background-size: 300px;
+}
+
+.prancheta03 {
+    margin-top: 285px;
+    margin-left: 500px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/Prancheta\ 3.png);
+    background-size: 300px;
+}
+
+.prancheta04 {
+    margin-top: 285px;
+    margin-left: 750px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/Prancheta\ 4.png);
+    background-size: 300px;
+}
+
+.prancheta05 {
+    margin-top: 285px;
+    margin-left: 1000px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: url(/img/Prancheta\ 5.png);
+    background-size: 300px;
+}
+
+.body2 a {
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 95px;
+    font-size: 20px;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: white;
+    text-shadow: 2px 1px 10px black;
+    text-decoration: none;
+}
