@@ -7,6 +7,7 @@
     <link href="/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/img/logo-ua.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -32,15 +33,19 @@
                     </a>
                     </li>
                     <li>
-                        <div id="divBusca">
-                            <input type="text" id="txtBusca" placeholder="Buscar..." />
-                        </div>
+                        <form action=" " method="post">
+                            <div class="container4">
+                                <input type="search" id="busca" name="q">
+                                <button type="submit">OK</button>
+                            </div>
+
+                        </form>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="header1">
-            <img src="/img/logo.png" alt="">
+            <img src="/img/logo-ua.svg" alt="">
             <div class="options">
                 <ul>
                     <li>
@@ -63,17 +68,17 @@
                         COMUNIDADE
                         </a>
                     </li>
-                    <li>
-                        <div id="divBusca">
-                            <input type="text" id="txtBusca" placeholder="Buscar..." />
-                        </div>
-                    </li>
+
                 </ul>
             </div>
         </div>
     </header>
 
+
     <div class="body1 ">
+        <div class="banner">
+        </div>
+
         <div class="letras ">
             <h1>Envie seu curriculo</h1>
         </div>
@@ -96,6 +101,77 @@
         <div class="prancheta05">
             <a href="">Curriculos</a>
         </div>
+    </div>
+
+    <div class="letrascurriculo">
+        <h1>Envie Seu curriculo para participar de estágios com empresas parceiras</h1>
+    </div>
+
+    <div class="formulario">
+        <form action="#" method="post">
+            <fieldset>
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" style="width: 10em" value="">
+                    </div>
+                    <div class="campo">
+                        <label for="snome">Sobrenome</label>
+                        <input type="text" id="snome" name="snome" style="width: 10em" value="">
+                    </div>
+                </fieldset>
+                <div class="campo">
+                    <label>Sexo</label>
+                    <label>
+                    <input type="radio" name="sexo" value="masculino"> Masculino
+                </label>
+                    <label>
+                    <input type="radio" name="sexo" value="feminino"> Feminino
+                </label>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email" style="width: 20em" value="">
+                </div>
+                <div class="campo">
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone" name="telefone" style="width: 10em" value="">
+                </div>
+
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" id="cidade" name="cidade" style="width: 10em" value="">
+                    </div>
+                    <div class="campo">
+                        <label for="estado">Estado</label>
+                        <select name="estado" id="estado">
+                        <option value="">--</option>
+                        <option value="PR">PR</option>
+                    </select>
+                    </div>
+                </fieldset>
+
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea rows="6" style="width: 20em" id="mensagem" name="mensagem"></textarea>
+                </div>
+
+                <div class="campo">
+                    <label>Newsletter</label>
+                    <label>
+                    <input type="checkbox" name="newsletter" value="1"> Gostaria de receber vagas em meu E-Mail
+                </label>
+                </div>
+                <label for="files">
+                <input type="file" name="files">
+               </label>
+                <br>
+                <br>
+
+                <button type="submit" name="submit">Enviar</button>
+            </fieldset>
+        </form>
     </div>
 </body>
 
