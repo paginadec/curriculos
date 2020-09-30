@@ -77,7 +77,6 @@ header ul li {
 
 .options {
     margin-top: 30px;
-    margin-left: 0px;
 }
 
 .options ul li {
@@ -97,6 +96,7 @@ header ul li {
     width: 100%;
     position: absolute;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .header2 a {
@@ -183,7 +183,8 @@ header ul li {
 .formulario {
     margin-top: 70px;
     margin-left: 90px;
-    position: absolute;
+    display: flex;
+    width: 1200px;
     background-color: whitesmoke;
 }
 
@@ -286,4 +287,22 @@ label.checkbox {
 .letrascurriculo {
     display: flex;
     margin-top: 530px;
+}
+
+.vagas {
+    margin-left: 280px;
+    height: 650px;
+    width: 500px;
+}
+
+.vagas ul li {
+    margin-top: 23px;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #666;
+}
+
+.vagas ul li h1 {
+    font-size: 20px;
+    color: #0b396D;
+    ;
 }
