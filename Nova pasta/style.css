@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    height: 75px;
+    height: 35px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -61,9 +61,8 @@ header {
 
 header img {
     margin-left: 20px;
-    margin-top: 15px;
-    width: 50px;
-    height: 40px;
+    margin-top: px;
+    width: 100px;
 }
 
 header ul li {
@@ -72,23 +71,23 @@ header ul li {
 
 .header1 {
     display: flex;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .options {
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 .options ul li {
     font-family: 'Hind Siliguri', sans-serif;
-    font-size: 20px;
-    margin-left: 100px;
+    font-size: 15px;
+    margin-left: 60px;
     height: 20px;
 }
 
 .options a {
     text-decoration: none;
-    color: #7fbc07;
+    color: #64BB45;
 }
 
 .header2 {
@@ -314,4 +313,35 @@ label.checkbox {
 
 .vagas ul li:first-child {
     margin-top: 0;
+}
+
+#divBusca {
+    margin-left: 150px;
+    margin-top: 3px;
+    background-color: #E0EEEE;
+    border: solid 1px gray;
+    border-radius: 10px;
+    width: 300px;
+    height: 20px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 20px;
+    width: 191px;
+}
+
+#btnBusca {
+    border: none;
+    float: left;
+    height: 20px;
+    border-radius: 0 7px 7px 0;
+    width: 102px;
+    font-weight: bold;
+    background-color: grey;
+    opacity: 0.3;
 }
